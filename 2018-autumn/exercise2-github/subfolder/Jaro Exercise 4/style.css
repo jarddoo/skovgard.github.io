@@ -1,0 +1,213 @@
+body {
+
+    background-image: url("background.webp");
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+
+
+
+
+.wrapper {
+    width: 100%;
+
+}
+
+
+.logo {
+    display: block;
+    margin: 0 auto;
+    margin-top: 10%;
+    width: 50%;
+    height: auto;
+
+
+
+
+
+}
+
+.header {}
+
+
+/* Middle
+-----------------------------------------------------------------------------*/
+.content {
+    display: block;
+    margin: 0 auto;
+    margin-top: 20%;
+
+
+
+
+
+}
+
+.heading {
+    margin-left: 2%;
+    font-size: 2em;
+
+
+
+
+
+
+}
+
+
+.content img {
+    float: right;
+    width: 30%;
+    margin-right: 3%;
+    margin-left: 2%;
+
+
+
+
+
+
+
+}
+
+
+.article {
+    display: block;
+    margin-left: 3%;
+    margin-right: 35%;
+
+    margin-bottom: 5%;
+    border-bottom-style: solid;
+    border-bottom-width: thin;
+    font-size: 1.8em;
+}
+
+@media all and (max-width: 1200px) {
+    .article {
+        font-size: 2em;
+    }
+
+    .content img {
+        align-content: center;
+
+
+    }
+    .heading {font-size: 1.7em;
+        
+    }
+
+
+}
+
+@media all and (max-width: 1024px) {
+    .article {
+        font-size: 1.6em;
+    }
+
+    .content img {
+        align-content: center;
+
+
+    }
+     .heading {font-size: 1.1em;
+        
+    }
+}
+
+@media all and (max-width: 768px) {
+    .article {
+        font-size: 1.3em;
+        margin-right: 3%;
+    }
+
+    .content img {
+        align-content: center;
+
+
+    }
+     .heading {font-size: 1em;
+        
+    }
+}
+
+
+
+@media all and (max-width: 480px) {
+    .article {
+        font-size: 1.1em;
+        margin-right: 3%;
+    }
+
+    .content img {
+        align-content: center;
+
+
+    }
+     .heading {font-size: 0.7em;
+        
+    }
+
+}
+
+@media all and (max-width: 320px) {
+    .article {
+        font-size: 1.0em;
+        margin-right: 3%;
+    }
+
+    .content img {
+        align-content: center;
+
+
+    }
+     .heading {font-size: 0.5em;
+        
+    }
+}
+
+@media all and (max-width: 240px) {
+    .article {
+        font-size: 0.9em;
+        margin-right: 3%;
+    }
+
+    .content img {
+        align-content: center;
+
+
+    }
+     .heading {font-size: 0.3em;
+        
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer
+-----------------------------------------------------------------------------*/
+.footer {}
